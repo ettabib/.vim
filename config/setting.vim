@@ -147,12 +147,12 @@ set foldcolumn=1
 " Enable syntax highlighting
 syntax enable 
 
-try
-    colorscheme desert
-catch
-endtry
+" try
+"     colorscheme desert
+" catch
+" endtry
 
-set background=dark
+" set background=dark
 
 " Set extra options when running in GUI mode
 if has("gui_running")
@@ -191,9 +191,9 @@ set smarttab
 set shiftwidth=4
 set tabstop=4
 
-" Linebreak on 500 characters
+" Linebreak on 80 characters
 set lbr
-set tw=500
+set tw=80
 
 set ai "Auto indent
 set si "Smart indent
